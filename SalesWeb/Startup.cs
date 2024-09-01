@@ -42,7 +42,7 @@ namespace SalesWeb
                         builder.MigrationsAssembly("SalesWeb")));
 
             services.AddScoped<SeedingService>();
-
+            services.AddScoped<DepartmentService>();
             services.AddScoped<SellerService>();
         }
 
